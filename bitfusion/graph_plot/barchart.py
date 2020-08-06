@@ -20,7 +20,7 @@ logging.basicConfig()
 
 from scipy.stats import gmean
 
-from src.utils.utils import lookup_pandas_dataframe
+from bitfusion.src.utils.utils import lookup_pandas_dataframe
 
 class BarChart(object):
     def __init__(self):

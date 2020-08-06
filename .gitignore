@@ -1,2 +1,4 @@
 ./fig
+bitfusion.egg-info
 .ipynb_checkpoints
+*.pyc

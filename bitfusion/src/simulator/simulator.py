@@ -3,14 +3,14 @@ import math
 import ConfigParser
 import numpy as np
 
-from src.utils.utils import ceil_a_by_b, log2, lookup_pandas_dataframe
-from src.simulator.stats import Stats
-from src.simulator.loop_stack import LoopStack
-from src.optimizer.optimizer import optimize_for_order, get_stats_fast
-from src.simulator.accelerator import Accelerator
-from src.simulator.energy import EnergyTuple
+from bitfusion.src.utils.utils import ceil_a_by_b, log2, lookup_pandas_dataframe
+from bitfusion.src.simulator.stats import Stats
+from bitfusion.src.simulator.loop_stack import LoopStack
+from bitfusion.src.optimizer.optimizer import optimize_for_order, get_stats_fast
+from bitfusion.src.simulator.accelerator import Accelerator
+from bitfusion.src.simulator.energy import EnergyTuple
 
-from sram.cacti_sweep import CactiSweep
+from bitfusion.sram.cacti_sweep import CactiSweep
 import os
 import pandas
 

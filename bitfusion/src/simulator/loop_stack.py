@@ -1,7 +1,7 @@
 import numpy as np
 
-from src.simulator.stats import Stats
-from src.simulator.pipeline import PipeStage, Pipeline
+from bitfusion.src.simulator.stats import Stats
+from bitfusion.src.simulator.pipeline import PipeStage, Pipeline
 
 class LoopStack(object):
     def __init__(self, size=1024):

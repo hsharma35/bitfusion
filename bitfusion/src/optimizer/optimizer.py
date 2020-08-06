@@ -6,9 +6,9 @@ import logging
 from itertools import permutations
 from multiprocessing import Pool, cpu_count
 
-from src.utils.utils import ceil_a_by_b, log2
-from src.simulator.loop_stack import LoopStack
-from src.simulator.stats import Stats
+from bitfusion.src.utils.utils import ceil_a_by_b, log2
+from bitfusion.src.simulator.loop_stack import LoopStack
+from bitfusion.src.simulator.stats import Stats
 
 import numpy as np
 

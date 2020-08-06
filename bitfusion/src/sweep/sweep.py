@@ -2,9 +2,9 @@ import pandas
 import os
 import logging
 
-from src.simulator.simulator import Simulator
-from src.utils.utils import lookup_pandas_dataframe
-import src.benchmarks.benchmarks as benchmarks
+from bitfusion.src.simulator.simulator import Simulator
+from bitfusion.src.utils.utils import lookup_pandas_dataframe
+import bitfusion.src.benchmarks.benchmarks as benchmarks
 
 class SimulatorSweep(object):
     def __init__(self, csv_filename, config_file='conf.ini', verbose=False):

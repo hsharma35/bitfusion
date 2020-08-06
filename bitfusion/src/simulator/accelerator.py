@@ -1,5 +1,5 @@
-from src.utils.utils import ceil_a_by_b, log2
-from src.simulator.stats import Stats
+from bitfusion.src.utils.utils import ceil_a_by_b, log2
+from bitfusion.src.simulator.stats import Stats
 
 class Accelerator(object):
     def __init__(self, N, M, pmax, pmin, sram, mem_if_width, frequency):
